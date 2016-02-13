@@ -1,0 +1,728 @@
+/* CSS Document */
+/*==================== Global properties ====================*/
+html {width:100%; height:100%;}
+
+body {
+	background:url(../images/bg_body.jpg) center top no-repeat #c6ddee;
+	color:#cfe6ff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px; 
+	line-height:18px; 
+	min-width:1000px;
+	height:100%; 
+	}
+	
+.wrapper {
+	width : 100%;
+	} 
+
+div.main {
+	margin:0 auto;
+	width:1000px;
+	position:relative;
+	}
+	
+div.center {
+	padding:0 30px;
+	}
+	
+.content {
+	background-color:#1a335c;
+	position:relative;
+	margin:0 auto; 
+	padding: 27px 10px 65px;
+	// padding: 27px 10px 65px;
+	}
+	
+.left {float:left!important;}
+.right {float:right!important;}
+.clear {clear: both;}
+.blok {display:block;}
+
+.upper {
+	text-transform:uppercase;
+		}
+		
+.italic {
+	font-style:italic;
+		}
+		
+.bold {
+	font-weight:bold;
+	}
+	
+.red {
+	color:#ff1600;
+	}
+
+.text {
+	display:block;
+	width:100%;
+	}
+	
+h1{
+	font-family:'proxima_nova_rgbold';
+	font-size:40px; 
+	line-height:40px; 
+	color:#fff; 
+	font-weight:normal;
+	padding:0 0 20px;
+	}
+	
+h2 {
+	font-family:'proxima_nova_rgregular';
+	font-size:30px; 
+	line-height:30px; 
+	color:#f4f4f4; 
+	padding:0 0 20px;
+	font-weight:normal;
+	}	
+	
+h3{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px; 
+	line-height:18px; 
+	color:#aecdee; 
+	font-weight:normal;
+	padding-bottom:17px;
+	text-transform:uppercase;
+	text-decoration:underline; 
+	}	
+	
+h3 a {
+	color:#aecdee; 
+	}	
+	
+h3 a:hover, h3 a {
+	color:#aecdee!important;
+	text-decoration:none!important;}	
+	
+h4{
+	background:#7995b5;
+	width:190px;
+	height: 15px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px; 
+	line-height:14px; 
+	color:#1a335c; 
+	padding:5px 20px;
+	text-transform:uppercase;
+	font-weight:normal;
+	}	
+	
+h5{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px; 
+	line-height:18px; 
+	color:#aecdee; 
+	font-weight:normal;
+	padding-bottom:17px;
+	text-transform:uppercase;
+	}	
+	
+	
+h5 a {
+	color:#aecdee; 
+	text-decoration:underline;
+	}	
+	
+h5 a:hover {
+	color:#aecdee;
+	text-decoration:none;}	
+
+.mb6 {
+	margin-bottom:6px;
+	}
+	
+.pr10 {
+	padding-right:10px;
+	}
+	
+.pt10 {
+	padding-top:10px;
+	}
+	
+.pt20 {
+	padding-top:20px;
+	}
+	
+.mb15 {
+	margin-bottom:15px;
+	}
+	
+.pr20 {
+	padding-right:20px;
+	}
+
+.mb20 {
+	margin-bottom:20px;
+	}
+	
+.mr20 {
+	margin-right:20px;
+	}	
+
+.pt40 {
+	padding-top:40px;
+	}
+		
+.mb40 {
+	margin-bottom:40px;
+	}
+		
+.mb45 {
+	margin-bottom:45px;
+	}
+	
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+	{
+	display:inline;
+	float: left;
+	position: relative;
+	}
+	
+.content .grid_1{
+	width:620px;
+	float: left;
+	}
+
+.content .grid_2{
+	width:260px;
+	float: right;
+	}
+
+.content .grid_3{
+	width:285px;
+	float: left;
+	}	
+	
+.content .grid_4{
+	width:215px;
+	float: left;
+	}
+	
+img {
+	border-radius: 6px;
+	}	
+	
+div.img{
+	border-radius: 13px;
+	width:720px;
+	height:410px;
+	margin: 0 auto;
+text-align: center;
+	float:left;
+	background-color:#37517c;
+	padding: 6px;
+	}
+	
+div.imggall{
+	border-radius: 13px;
+	float:left;
+	background-color:#37517c;
+	padding: 6px;
+	}
+
+div.imggall:hover {
+	border-radius: 13px;
+	float:left;
+	background-color:#fff;
+	padding: 6px;
+	}
+	
+a{	
+	text-decoration:none;
+	color:#fff; 
+	}
+	
+a:hover{
+	color:#fff; 
+	text-decoration:none;
+	}
+	
+a.link {
+	text-decoration:underline;
+	color:#fff;
+	}
+	
+a.link:hover {
+	text-decoration:none;
+	color:#fff;
+	}
+	
+a.link1 {
+	font-style:italic;
+	text-decoration:underline;
+	color:#CFE6FF;
+	}
+	
+a.link1:hover {
+	font-style:italic;
+	text-decoration:none;
+	color:#CFE6FF;
+	}
+a.button {
+	background:url(../images/bg_button.gif) left top repeat-x;
+	color:#1a335c; 
+	display:block;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	font-size:48px; 
+	line-height:48px; 
+	font-weight:bold;
+	padding:15px 22px;
+	margin-top: 20px;
+	border-radius: 4px;
+	}
+	
+a.button:hover {
+	background:url(../images/bg_button.gif) left top repeat-x;
+	color:#ff1600; 
+	display:block;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	font-size:48px; 
+	line-height:48px; 
+	font-weight:bold;
+	padding:15px 22px;
+	margin-top: 20px;
+	border-radius: 4px;
+	}
+
+a.tickets {
+	background:url(../images/bg_tickets.gif) left top repeat-x;
+	color:#1a335c; 
+	display:block;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:24px; 
+	line-height:24px; 
+	font-weight:bold;
+	padding:19px 22px;
+	margin-top: 21px;
+	margin-left:20px;
+	border-radius: 4px;
+	}
+
+a.tickets:hover {
+	background:url(../images/bg_tickets.gif) left top repeat-x;
+	color:#ff1600; 
+	display:block;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:24px; 
+	line-height:24px; 
+	font-weight:bold;
+	padding:19px 22px;
+	margin-top: 21px;
+	margin-left:20px;
+	border-radius: 4px;
+	}
+
+a:hover img.img {
+	background: #4197e6;
+	}	
+	
+a.read_more{
+	display:block;
+	float:left;
+	font-family:'bebas_neueregular';
+	font-size:20px; 
+	line-height:20px; 
+	color:#fff; 
+	text-decoration:none;
+	padding-top:27px;
+	}	
+	
+a.read_more:hover{
+	display:block;
+	float:left;
+	color:#fff; 
+	text-decoration:none;
+	padding-top:27px;
+	}	
+/*==================== header ====================*/
+.header {
+	background-color:#1a335c;
+	width:100%;}
+
+#logo {
+	float:left;
+	padding:0 0 0 15px;
+	}
+	
+#logo a {
+	display:block;
+	}	
+	
+ul.social{
+	width:220px;
+	padding-top: 35px;
+	padding-right:40 px;
+	}		
+	
+ul.social li {
+	float:right;
+	width:30px;
+	padding-left:9px;
+	}	
+	
+ul.social li a{
+	display:block;
+	}	
+	
+.bg_menu{
+	background:#102240;
+	border-top: 13px #1a335c solid;
+	height:72px;
+	}
+
+.menu li.page {
+	float:left; 
+	width:138px;
+	height:72px;
+	// height:50px;
+	}
+	
+.menu li.gallerypage {
+	float:left; 
+	width:166px;
+	height:72px;
+	// height:50px;
+	}
+
+
+
+.menu li.menuline {
+	float:left; 
+	background:#2f405b;
+	width:1px;
+	height:62px;
+	margin-top:5px;
+	}
+
+.menu li a {
+	display:block;
+	float:left;
+	font-family:'bebas_neueregular'; 
+	font-size:25px; 
+	line-height:30px; 
+	color:#aacaec; 
+	text-decoration:none;
+	text-transform:uppercase;
+	width:100%;
+	padding:21px 0; 
+	font-style:normal;
+	text-align:center;
+	}
+	
+.menu li a:hover, .menu li a:active {
+	background-color:#ab1a10;
+	display:inline-block;
+	float:left;
+	font-family:'bebas_neueregular'; 
+	font-size:27px; 
+	line-height:30px; 
+	color:#fff; 
+	padding:21px 0;  
+	text-decoration:none;
+	text-transform:uppercase;
+	text-align:center;
+	}	
+
+/*==================== slider ====================*/	
+.slider {
+	background:#49689a;
+	position: relative;
+	padding:20px 30px 23px;
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:16px; 
+	line-height:24px;
+	font-weight:normal;
+	color:#f8f6f6; 
+	}
+	
+slider img {padding-right:20px;}
+	
+.r_slider  {
+	padding-left:30px;
+	float:right;
+	width:150px;
+	}
+	
+.slider p {
+	display:block;
+	font-size:14px; 
+	line-height:32px;
+	font-family:'proxima_nova_ltregular';
+	text-transform:uppercase;
+	color:#f8f6f6;
+	text-align:center;
+	}
+	
+.r_slider span{	
+	display:block;
+	color:#f8f6f6;
+	font-family:'proxima_nova_ltregular';
+	font-size:60px; 
+	line-height:60px; 
+	}
+	
+.r_slider span.red {
+	color:#ff1600;
+	}
+/*==================== footer ====================*/
+.footer {
+	background-color:#1A335C;
+	color:#f7f7f7;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	line-height:16px;
+	padding:40px 0 30px;
+ 	} 
+
+.footer p{ 
+	width:115px;
+	float:left;
+	}
+/*==================== home page ====================*/
+.news {
+	display:block;
+	width:100%;
+	margin-bottom:25px;
+	}
+
+.news span {
+	display:block;
+	width:120px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px; 
+	line-height:14px; 
+	color:#cfe6ff; 
+	padding-bottom:20px;
+	}
+		
+/*==================== services page ====================*/	
+ul.servic a {
+	background:url(../images/serv_pinn.png) 5px center no-repeat;
+	// background:url(../images/serv_pinn.png) 5px center no-repeat;
+	display:block;
+	width: 190px;
+	padding:4px 0 6px 27px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	line-height:13px;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-weight:bold;
+	text-decoration:none;
+	margin-bottom:7px;
+	color:#cfe6ff;
+	position:relative;
+	}	
+	
+ul.servic a:hover {	
+	background:url(../images/serv_pinn_active.png) 5px center no-repeat;
+	// background:url(../images/serv_pinn_active.png) 5px center no-repeat;
+	background-color:#bbd2f7;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	line-height:13px;
+	font-weight:bold;
+	color:#1a335c;
+	text-decoration:none;
+	padding:4px 0 6px 27px;
+	margin-bottom:7px;
+	}
+
+ul.servic a:hover > ul.servic li {
+	background-color:#bbd2f7;	
+	}
+/*==================== school page ====================*/		
+div.table {
+	background:url(../images/table.jpg) top left no-repeat;
+	widows:100%;
+	height:143px;
+	}
+	
+/*==================== contact page ====================*/		
+.adress {
+	float:right;
+	width:150px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:28px;
+	text-decoration:none; 
+	}
+
+.adress table td {
+	border:none; 
+	font-size:12px;
+	line-height:23px;
+	text-align:left;
+	font-weight:normal;
+	}
+	
+.adress dl > dt {
+	float:left;
+	width: 30px;}
+	
+a.location {
+	display:block;
+	position:absolute;
+	z-index:1;
+	top: 770px;
+	left: 730px;
+	// top: 740px;
+	// left: 30px;
+	
+	}
+	
+a.location2 {
+	display:block;
+	position:absolute;
+	z-index:1;
+	top: 800px;
+	left: 800px;
+	// top: 770px;
+	// left: 100px;
+	}
+	
+a.location3 {
+	display:block;
+	position:absolute;
+	z-index:1;
+	top: 780px;
+	left: 830px;
+	// top: 750px;
+	// left: 130px;
+	}
+	
+a.location4 {
+	display:block;
+	position:absolute;
+	z-index:1;
+	top: 790px;
+	left: 850px;
+	// top: 760px;
+	// left: 150px;
+	}
+/*==================== contact form ====================*/	
+
+/* Label */
+label  {
+	color:#cfe6ff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:22px;
+	width: 193px;
+	margin: 0px;
+	float: left;
+	text-align: left center;
+	text-transform:uppercase;
+	}
+
+/* Input, Textarea */
+input{ 
+	float: left;
+	background-color:#f7f7f7;
+	width:320px;                          
+	height:40px;
+	border: 1px #c9c9c9 solid;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#888;
+	padding: 0 5px;
+	margin-bottom:18px;
+	}
+
+textarea{
+	float: left;
+	background-color:#f7f7f7;
+	width:320px;
+	height:103px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#888;
+	margin-bottom:18px; 
+	line-height:22px;
+	border: 1px #c9c9c9 solid;; 
+	padding:5px;
+	}	
+
+#sub {
+	display:block;
+	float:left;
+	width:90px;
+	background-color:#102240;
+	padding:4px 18px;
+	margin-right: 20px;
+	font-family:'proxima_nova_rgbold'!important;
+	text-transform:uppercase;
+	font-size:15px; 
+	line-height:15px; 
+	color:#aacaec; 
+	text-decoration:none;
+	border:none;
+	}
+   
+#sub:hover {
+	text-decoration:none;
+	background:#102240;
+	color:#ab1a10; 
+	}
+		
+/* Generated by Font Squirrel (http://www.fontsquirrel.com) */
+/*==================== font-face ====================*/
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('bebasneue-webfont.eot');
+    src: url('bebasneue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bebasneue-webfont.woff') format('woff'),
+         url('bebasneue-webfont.ttf') format('truetype'),
+         url('bebasneue-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	}
+	
+@font-face {
+    font-family: 'proxima_nova_rgbold';
+    src: url('proximanova-bold-webfont.eot');
+    src: url('proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('proximanova-bold-webfont.woff') format('woff'),
+         url('proximanova-bold-webfont.ttf') format('truetype'),
+         url('proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	}
+
+@font-face {
+    font-family: 'proxima_nova_ltregular';
+    src: url('proximanova-light-webfont.eot');
+    src: url('proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('proximanova-light-webfont.woff') format('woff'),
+         url('proximanova-light-webfont.ttf') format('truetype'),
+         url('proximanova-light-webfont.svg#proxima_nova_ltregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	}
+
+@font-face {
+    font-family: 'proxima_nova_rgregular';
+    src: url('proximanova-regular-webfont.eot');
+    src: url('proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('proximanova-regular-webfont.woff') format('woff'),
+         url('proximanova-regular-webfont.ttf') format('truetype'),
+         url('proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	}
